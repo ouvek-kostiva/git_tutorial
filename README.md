@@ -1,13 +1,13 @@
 # git_tutorial
 
+echo "# dockerpyinst" >> README.md
+
 git init
 
-git status
+git add README.md
 
-git add .
+git commit -m "first commit"
 
-git commit -m "First commit"
+git remote add origin git@github.com:ouvek-kostiva/"REPO NAME HERE (REMOVE BRACKET)".git
 
-git remote add origin <URL>
-
-git push origin master
+git push -u origin master
